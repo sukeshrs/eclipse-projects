@@ -14,6 +14,7 @@ public class DeadLock {
         synchroThread.run();
         synchroThread.run();
         synchroThread.run();
+        System.out.println("Java");
         
         thread1.start();
         Thread.sleep(3000);
